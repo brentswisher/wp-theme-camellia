@@ -1,0 +1,27 @@
+{
+  "name": "wp-theme-camellia",
+  "version": "1.0.0",
+  "description": "Wordpress theme for teageek.org",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentswisher/wp-theme-camellia.git"
+  },
+  "keywords": [
+    "wordpress",
+    "tea"
+  ],
+  "author": "Brent Swisher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brentswisher/wp-theme-camellia/issues"
+  },
+  "homepage": "https://github.com/brentswisher/wp-theme-camellia#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
