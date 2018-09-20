@@ -1,12 +1,18 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var $    = require('gulp-load-plugins')();
 
-gulp.task('sass', function(){
+gulp.task('sass', function() {
   return gulp.src('sass/style.scss')
-    .pipe(sass()) // Converts Sass to CSS with gulp-sass
+    .pipe($.sass({
+      outputStyle: 'compressed' // if css compressed **file size**
+    })
+      .on('error', $.sass.logError))
+    .pipe($.autoprefixer({
+      browsers: ['last 2 versions', 'ie >= 9']
+    }))
     .pipe(gulp.dest('./'));
 });
 
 gulp.task('default', ['sass'], function() {
-  gulp.watch(['sass/**'], ['sass']);
+  gulp.watch(['sass/**/*.scss'], ['sass']);
 });
