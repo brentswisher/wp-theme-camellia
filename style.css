@@ -705,12 +705,27 @@ a {
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
-/* Make header image always take up the whole screen, even if it has to stretch */
+/*
+*  Header
+*/
+.wp-custom-header {
+  position: relative; }
+
 .wp-custom-header img {
   width: 100%; }
 
-.site-header,
+.site-header {
+  position: relative; }
+
+.site-branding {
+  display: block;
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  width: 100%; }
+
 .site-content,
+.main-navigation,
 .site-footer {
   padding-right: 10%;
   padding-left: 10%; }
