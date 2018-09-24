@@ -1,31 +1,7 @@
-
-/*
-*  Header
-*/
-.wp-custom-header {
-	position: relative;
-}
-.wp-custom-header img {
-	width:100%;
-}
-
-.site-header {
-	position:relative;
-}
-
-.site-branding {
-	display:block;
-	position: absolute;
-    bottom: 10%;
-    text-align: center;
-    width: 100%;
-}
-
 .site-content,
-.main-navigation,
 .site-footer {
-	padding-right:10%;
-	padding-left:10%;
+	padding-right:5%;
+	padding-left:5%;
 }
 
 .entry-content {
@@ -46,6 +22,19 @@
 
 .cat-links {
 	padding-right: 0.5em;
+}
+
+.entry-title{
+	font-size:1.75em;
+	margin-top:0.5em;
+	margin-bottom:0;
+	a {
+		text-decoration:none;
+	}
+}
+
+.entry-meta {
+	text-decoration:none;
 }
 
 .site-footer {
@@ -82,5 +71,5 @@
 	// margin-right: 0;
 }
 
-
+@import "header";
 @import "no-sidebar";
