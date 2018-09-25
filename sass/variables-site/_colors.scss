@@ -1,6 +1,27 @@
-$color__background-body: #fff;
-$color__background-screen: #f1f1f1;
-$color__background-hr: #ccc;
+// $color__camellia-header: #FFF;
+$color__camellia-primary: #AB1A26;
+$color__camellia-secondary: #17213d;
+$color__camellia-accent: #7D847B;
+$color__camellia-white: #FFF;
+$color__camellia-black: #000;
+
+// Create harmonious grays by using on of the main colors as a filter over the base grays.
+// Based on: https://www.smashingmagazine.com/2016/04/web-developer-guide-color/
+$color__camellia-gray-base-light: #f3f2f2;
+$color__camellia-gray-base-medium: #60686f;
+$color__camellia-gray-base-dark: #23282d;
+
+$color__camellia-harmony-base: $color__camellia-secondary;
+$color__camellia-harmony-opacity:10;
+
+$color__camellia-gray-light: mix($color__camellia-harmony-base, $color__camellia-gray-base-light, $color__camellia-harmony-opacity);
+$color__camellia-gray-medium: mix($color__camellia-harmony-base, $color__camellia-gray-base-medium, $color__camellia-harmony-opacity);
+$color__camellia-gray-dark: mix($color__camellia-harmony-base, $color__camellia-gray-base-dark, $color__camellia-harmony-opacity);
+
+
+$color__background-body: $color__camellia-white;
+$color__background-screen: $color__camellia-white;
+$color__background-hr: $color__camellia-secondary;
 $color__background-button: #e6e6e6;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
@@ -18,12 +39,3 @@ $color__border-button-hover: #ccc #bbb #aaa;
 $color__border-button-focus: #aaa #bbb #bbb;
 $color__border-input: #ccc;
 $color__border-abbr: #666;
-
-
-// $color__theme-header: #FFF;
-$color__theme-primary: blue;
-// $color__theme-secondary: #FFF;
-// $color__theme-tertiary: #FFF;
-
-// $color__theme_gray-light: #202a30;
-// $color__theme_gray-dark: #202a30;

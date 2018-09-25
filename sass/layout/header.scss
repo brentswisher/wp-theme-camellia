@@ -19,6 +19,12 @@
 }
 
 .site-title a {
-	color: white;
+	color: $color__camellia-white;
 	font-size: 3em;
+}
+
+
+.site-description {
+	color:$color__camellia-white;
+	font-size:1.25em;
 }

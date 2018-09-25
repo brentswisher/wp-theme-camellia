@@ -5,7 +5,7 @@
 }
 
 .entry-content {
-	background-color:#FFF;
+	background-color:$color__camellia-white;
 	margin-top: -10%;
 	position: relative;
 	padding: 0 2%;
@@ -20,21 +20,38 @@
 	margin-left:5%;	
 }
 
-.cat-links {
-	padding-right: 0.5em;
-}
 
 .entry-title{
 	font-size:1.75em;
 	margin-top:0.5em;
 	margin-bottom:0;
 	a {
+		color:$color__camellia-primary;
 		text-decoration:none;
 	}
 }
 
+
+
 .entry-meta {
-	text-decoration:none;
+	width: 100%;
+	margin-top:0.25em;
+    padding-bottom: 10px;
+    border-bottom: solid 1px $color__camellia-gray-light;
+	a {
+		color:$color__camellia-gray-medium;
+		text-decoration:none;
+	}
+}
+
+.cat-links {
+	padding-right: 0.75em;
+	border-right: 1px solid $color__camellia-gray-light;
+}
+
+
+.posted-on {
+	padding-left:0.75em;
 }
 
 .site-footer {

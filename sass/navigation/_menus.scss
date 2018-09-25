@@ -2,9 +2,11 @@
 	clear: both;
 	display: block;
 	float: left;
-	width: 90%;
-	margin-left:5%;
-	border-bottom:1px solid $color__theme-primary;
+	width: 100%;
+	padding-left:5%;
+	padding-top:0;
+	background-color:$color__camellia-primary;
+	color:$color__camellia-white;
 	ul {
 		display: none;
 		list-style: none;
@@ -64,7 +66,8 @@
 		text-decoration: none;
 		padding: 0.7rem 1rem;
 		font-style:uppercase;
-		background-color:#FFF;
+		background-color:$color__camellia-primary;
+		color:$color__camellia-white;
 	    text-transform: uppercase;
 	}
 
