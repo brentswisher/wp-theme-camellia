@@ -5,6 +5,7 @@
 	width: 100%;
 	padding-left:5%;
 	padding-top:0;
+	margin-top: -6px; //I don't understand why this needs to be here
 	background-color:$color__camellia-primary;
 	color:$color__camellia-white;
 	ul {
