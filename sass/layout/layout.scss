@@ -70,32 +70,31 @@
 
 
 
-.content-area {
-	float: left;
-	margin: 0 -25% 0 0;
-	padding:0 5% 0 0;
-	width: 100%;
-}
-.site-main {
-	margin: 0 25% 0 0;
-}
-.site-content .widget-area {
-	float: right;
-	overflow: hidden;
-	width: 25%;
-}
-.site-footer {
-	// clear: both;
-	// width: 100%;
+.site-content {
+	display:flex;
+	  flex-flow: row wrap;
+
 }
 
-.no-sidebar .content-area {
-	// float: none;
-	// margin-left: auto;
-	// margin-right: auto;
+.content-area {
+	flex: 1 100%;
 }
-.no-sidebar .site-main {
-	// margin-right: 0;
+
+.widget-area {
+	flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+  /* We tell both sidebars to share a row */
+  .widget-area { 
+  	flex: 2; 
+  }
+}
+
+@media all and (min-width: 800px) {
+  .content-area { 
+  	flex: 5;
+  }
 }
 
 @import "header";
