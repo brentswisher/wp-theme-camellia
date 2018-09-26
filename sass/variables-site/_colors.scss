@@ -22,7 +22,7 @@ $color__camellia-gray-dark: mix($color__camellia-harmony-base, $color__camellia-
 $color__background-body: $color__camellia-white;
 $color__background-screen: $color__camellia-white;
 $color__background-hr: $color__camellia-secondary;
-$color__background-button: #e6e6e6;
+$color__background-button: $color__camellia-secondary;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 
@@ -34,7 +34,7 @@ $color__link-visited: #111;
 $color__link-hover: #111;
 $color__text-main: #404040;
 
-$color__border-button: #ccc #ccc #bbb;
+$color__border-button: $color__camellia-gray-light;
 $color__border-button-hover: #ccc #bbb #aaa;
 $color__border-button-focus: #aaa #bbb #bbb;
 $color__border-input: #ccc;
