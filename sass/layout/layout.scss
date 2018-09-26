@@ -14,17 +14,21 @@
 	margin-left:5%;
 }
 
-.entry-content {
-	background-color:$color__camellia-white;
-	position: relative;
+.has-post-thumbnail .entry-footer {
 	padding: 0 2%;
-}
-
-.entry-footer {
-	padding:0 2%;
 	width:90%;
 	margin-right:5%;
 	margin-left:5%;	
+}
+
+.entry-content {
+	background-color:$color__camellia-white;
+	position: relative;
+	// padding: 0 2%;
+}
+
+.entry-footer {
+	// padding:0 2%;
 }
 
 
@@ -56,6 +60,9 @@
 	border-right: 1px solid $color__camellia-gray-light;
 }
 
+.edit-link {
+	padding-left: 0.75em;
+}
 
 .posted-on {
 	padding-left:0.75em;
@@ -69,8 +76,8 @@
 
 .site-content {
 	display:flex;
-	  flex-flow: row wrap;
-
+	flex-flow: row wrap;
+	margin-top:2.5em;
 }
 
 .content-area {

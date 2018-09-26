@@ -23,8 +23,11 @@
 
 
 .post {
-	margin-top: 3em;
-	margin-bottom: 3em;
+	margin-bottom: 6em;
     border-bottom: 1px solid $color__camellia_secondary;
-    padding-bottom: 5em;
+    padding-bottom: 6em;
+}
+
+.post:last-child {
+    border-bottom: none;
 }
