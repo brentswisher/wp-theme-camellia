@@ -18,9 +18,6 @@
 	background-color:$color__camellia-white;
 	position: relative;
 	padding: 0 2%;
-	width:90%;
-	margin-right:5%;
-	margin-left:5%;
 }
 
 .entry-footer {
@@ -98,4 +95,5 @@
 }
 
 @import "header";
+@import "footer";
 @import "no-sidebar";
