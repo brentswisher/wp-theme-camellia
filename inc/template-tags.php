@@ -79,13 +79,6 @@ if ( ! function_exists( 'camellia_entry_footer' ) ) :
 			// 	/* translators: 1: list of categories. */
 			// 	printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'camellia' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 			// }
-
-			/* translators: used between list items, there is a space after the comma */
-			$tags_list = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'camellia' ) );
-			if ( $tags_list ) {
-				/* translators: 1: list of tags. */
-				printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'camellia' ) . '</span>', $tags_list ); // WPCS: XSS OK.
-			}
 		}
 
 		if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
