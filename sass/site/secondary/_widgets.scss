@@ -11,6 +11,13 @@
     color:$color__camellia-secondary;
 }
 
+.widget-title {
+    margin: 1.5em 0 0.5em;
+}
+
+.widget_search {
+    margin-top: 2em;
+}
 .sidebar-profile {
     border-radius: 50%;
     border: 1px solid white;
@@ -19,4 +26,8 @@
     width: 100px;
     border: 2px solid $color__camellia-secondary;
     margin-left:0.75em;
+ }
+
+ .menu-top-posts-container li {
+    line-height:1.75;
  }
