@@ -36,3 +36,12 @@
 #content[tabindex="-1"]:focus {
 	outline: 0;
 }
+
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+[tabindex]:focus {
+	outline: $color__camellia-gray-medium solid 2px;
+	outline-offset: 2px;
+}
