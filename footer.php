@@ -22,10 +22,12 @@
 				?>
 			</a>
 			<span class="sep"> | </span>
+			<span class="site-info-theme">
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'camellia' ), 'camellia', '<a href="https://www.brentswisher.com">Brent Swisher</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'Camellia' ), 'Camellia', '<a href="https://www.brentswisher.com">Brent Swisher</a>' );
 				?>
+			</span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

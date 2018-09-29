@@ -1,6 +1,4 @@
 .widget {
-	margin: 1em 0 0 1.5em;
-
 	/* Make sure select elements fit in widgets. */
 	select {
 		max-width: 100%;
@@ -31,3 +29,19 @@
  .menu-top-posts-container li {
     line-height:1.75;
  }
+
+ @media all and (min-width: $breakpoint__mobile) {
+    .widget {
+        margin: 1em 0 0 1.5em;
+    }
+
+    .sidebar-profile {
+        border-radius: 50%;
+        border: 1px solid white;
+        float: right;
+        clear: both;
+        width: 100px;
+        border: 2px solid $color__camellia-secondary;
+        margin-left:0.75em;
+     }
+}

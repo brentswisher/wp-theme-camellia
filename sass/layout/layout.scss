@@ -4,6 +4,28 @@
 	padding-left:5%;
 }
 
+.site-info-theme {
+	display:block;
+	clear:both;
+}
+.site-footer .sep {
+	display:none;
+	clear:both;
+}
+
+.site-info {
+    padding: 0 2em;
+}
+@media all and (min-width: $breakpoint__mobile) {
+	.site-footer .sep {
+		display:inline;
+	}
+	.site-info-theme {
+		clear:none;
+		display:inline;
+	}
+}
+
 .has-post-thumbnail .entry-content {
 	background-color:$color__camellia-white;
 	margin-top: -10%;
@@ -86,16 +108,18 @@
 
 .widget-area {
 	flex: 1 100%;
+	margin-bottom:3em;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: $breakpoint__mobile) {
   /* We tell both sidebars to share a row */
   .widget-area { 
-  	flex: 2; 
+  	flex: 2;
+  	margin-bottom:0;
   }
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: $breakpoint__mobile) {
   .content-area { 
   	flex: 5;
   }
