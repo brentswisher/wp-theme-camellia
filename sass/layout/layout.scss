@@ -1,12 +1,19 @@
-.site-content,
-.site-footer {
+.site-content {
 	padding-right:5%;
 	padding-left:5%;
+	max-width:$container__max-width;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .site-info-theme {
 	display:block;
 	clear:both;
+}
+
+.site-footer {
+	padding-right:5%;
+	padding-left:5%;
 }
 .site-footer .sep {
 	display:none;
