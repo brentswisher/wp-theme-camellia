@@ -106,7 +106,6 @@
 .site-content {
 	display:flex;
 	flex-flow: row wrap;
-	margin-top:2.5em;
 }
 
 .content-area {
@@ -116,14 +115,21 @@
 .widget-area {
 	flex: 1 100%;
 	margin-bottom:3em;
+
 }
 
 @media all and (min-width: $breakpoint__mobile) {
-  /* We tell both sidebars to share a row */
-  .widget-area { 
-  	flex: 2;
-  	margin-bottom:0;
-  }
+	.site-content {
+		margin-top:2.5em;
+	}
+
+	/* We tell both sidebars to share a row */
+	.widget-area { 
+		flex: 2;
+		margin-bottom:0;
+		margin-left: 2em;
+
+	}
 }
 
 @media all and (min-width: $breakpoint__mobile) {

@@ -39,8 +39,8 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'camellia' ); ?></button>
+		<nav id="site-navigation" class="main-navigation toggled">
+			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'camellia' ); ?></button> -->
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
