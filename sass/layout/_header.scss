@@ -19,14 +19,35 @@
     width: 100%;
 }
 
+.site-title {
+	margin-bottom:.25em;
+}
+
 .site-title a {
 	color: $color__camellia-white;
-	font-size: 3em;
+	font-size: 2em;
 	text-decoration:none;
+	line-height:1;
 }
 
 
 .site-description {
 	color:$color__camellia-white;
-	font-size:1.25em;
+	font-size:1em;
+	margin-top:0;
 }
+
+ @media all and (min-width: $breakpoint__mobile) {
+ 	.site-title {
+ 		margin-bottom:0.67em;
+ 	}
+
+ 	.site-title a { 
+ 		font-size: 3em;
+ 		line-height:1.5;
+ 	}
+	.site-description {
+		font-size: 1.25em;
+		margin-top:inherit;
+	}
+ }
