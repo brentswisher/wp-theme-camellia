@@ -23,13 +23,14 @@
 
 
 .post {
-	margin-bottom: 6em;
+	margin-bottom: 3em;
     border-bottom: 1px solid $color__camellia_secondary;
-    padding-bottom: 6em;
+    padding-bottom: 4em;
 }
 
 .post-thumbnail img {
 	width:100%;
+	margin-top:0.5em;
 }
 
 .archive-description {
