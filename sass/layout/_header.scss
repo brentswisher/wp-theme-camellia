@@ -12,13 +12,10 @@
 }
 
 .site-branding {
-	display:block;
-	position: absolute;
-    bottom: 10%;
-    text-align: center;
+	text-align: left;
+    padding-left:8%;
     width: 100%;
 }
-
 .site-title {
 	margin-bottom:.25em;
 }
@@ -43,7 +40,7 @@
  	}
 
  	.site-title a { 
- 		font-size: 3em;
+ 		font-size: 2.25em;
  		line-height:1.5;
  	}
 	.site-description {

@@ -1,14 +1,17 @@
 .main-navigation {
 	clear: both;
 	display: block;
-	padding-left:5%;
+	padding-left:7.5%;
 	padding-top:0;
 	margin-top: -6px; //I don't understand why this needs to be here
-	max-width:$container__max-width;
+	// max-width:$container__max-width;
 	margin-left:auto;
 	margin-right:auto;
 	color:$color__camellia-white;
+	background-color: $color__camellia-secondary;
+	height:3em;
 	ul {
+		max-width:$container__max-width;
 		display: none;
 		list-style: none;
 		margin: 0;
@@ -66,7 +69,7 @@
 		display: block;
 		text-decoration: none;
 		padding: 0.7rem 1rem;
-		background-color:$color__camellia-primary;
+		background-color:$color__camellia-secondary;;
 		color:$color__camellia-white;
 	    text-transform: uppercase;
 	}

@@ -30,6 +30,17 @@
     line-height:1.75;
  }
 
+ .widget ul {
+    list-style-type:none;
+    margin-left:0;
+    padding-left:0;
+    line-height:1.25em;
+    li {
+        margin-bottom:0.75em;
+    }
+
+ }
+
  @media all and (min-width: $breakpoint__mobile) {
     .widget {
         margin: 1em 0 0 1.5em;
